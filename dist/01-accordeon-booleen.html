@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordéon avec des booléens</title>
+    <script defer="" src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1>Accordéon avec des booléens</h1>
+      <div class="accordeon">
+        <section x-data="{open:true}">
+          <button @click="open = !open">bouton 1</button>
+          <p x-show="open">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, consequuntur molestias? Soluta, fuga, eum incidunt enim neque officia laboriosam, voluptate repellat aliquid quia ullam sint earum! Consequatur consequuntur perspiciatis obcaecati?</p>
+        </section>
+        <section x-data="{open:true}">
+          <button @click="open = !open">bouton 2</button>
+          <p x-show="open">Fuga officiis, nesciunt blanditiis esse quas, voluptatum sequi non earum corporis fugit quaerat laboriosam, porro nulla eaque quae facilis odio. Rem beatae omnis nihil in odio, nesciunt placeat soluta eveniet.</p>
+        </section>
+        <section x-data="{open:true}">
+          <button @click="open = !open">bouton 3</button>
+          <p x-show="open">Aliquam voluptatem earum minus vel quae, nisi laboriosam in veniam repudiandae. Vitae animi nisi delectus. Esse non repudiandae id autem dolore reiciendis quae asperiores temporibus sequi vero! Ullam, veniam repellat.</p>
+        </section>
+      </div>
+  </section><script src="/01-accordeon-booleen.69c6fc6d.js"></script></body>
+</html>
